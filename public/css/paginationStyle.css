@@ -1,0 +1,29 @@
+ /* Style pour les liens de pagination */
+ .pagination .page-item .page-link {
+    color: #007bff;
+    border-radius: 50px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.pagination .page-item .page-link i {
+    margin-right: 5px;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #6c757d;
+}
+
+.pagination .page-item .page-link:hover {
+    background-color: #0056b3;
+    color: white;
+}
